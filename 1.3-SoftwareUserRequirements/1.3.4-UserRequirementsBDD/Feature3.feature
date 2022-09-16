@@ -1,3 +1,4 @@
-Feature: Отримати плани тренувань
-I want to розробити у додатку плани персональних тренувань
-In order to займатися спортом за схемою.
+Feature: Get training plans
+As a author-consumer
+I want to develop personal training plans in the application
+In order to do sports according to a personal scheme.
