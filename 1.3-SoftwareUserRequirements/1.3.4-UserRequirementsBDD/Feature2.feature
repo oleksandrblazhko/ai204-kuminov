@@ -1,4 +1,4 @@
-Feature: Авторизувати користувача
-As a Автор-споживач
-I want to авторизуватися у додатку
-In order to мати доступ до планів тренувань, інструментів звікозапису та прогнозу погоди.
+Feature: Authorize the user
+As a author-consumer
+I want to log in to the app
+In order to have access to training plans, logging tools and weather forecast.
