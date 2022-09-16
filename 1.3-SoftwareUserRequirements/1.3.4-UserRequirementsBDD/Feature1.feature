@@ -1,4 +1,4 @@
 Feature: Obtain the temperature of the external environment
-As a aвтор-споживач
-I want to дізнатися температуру на вулиці
-In order to зайнятися спортом.
+As a author-consumer
+I want to find out the temperature outside
+In order to do sports.
