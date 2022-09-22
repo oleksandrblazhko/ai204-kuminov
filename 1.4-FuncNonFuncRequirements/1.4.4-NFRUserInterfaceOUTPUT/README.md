@@ -1,3 +1,3 @@
 ### Опис вимог до OUTPUT-потоків інтерфейсу користувача
 
-![mindMapImage]([https://github.com/oleksandrblazhko/ai204-kuminov/blob/ai204-kuminov_with_laboratory_work_3/1.4-FuncNonFuncRequirements/1.4.4-NFRUserInterfaceOUTPUT/  Каркас графічного інтерфейсу користувача.jpg](https://github.com/oleksandrblazhko/ai204-kuminov/blob/ai204-kuminov_with_laboratory_work_3/1.4-FuncNonFuncRequirements/1.4.4-NFRUserInterfaceOUTPUT/%D0%9A%D0%B0%D1%80%D0%BA%D0%B0%D1%81%20%D0%B3%D1%80%D0%B0%D1%84%D1%96%D1%87%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%96%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D1%83%20%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%87%D0%B0.jpg)
+![mindMapImage](https://github.com/oleksandrblazhko/ai204-kuminov/blob/ai204-kuminov_with_laboratory_work_3/1.4-FuncNonFuncRequirements/1.4.4-NFRUserInterfaceOUTPUT/Каркас_графічного_інтерфейсу_користувача.jpg)
