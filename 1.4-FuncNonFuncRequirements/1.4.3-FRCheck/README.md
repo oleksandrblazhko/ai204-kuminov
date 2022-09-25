@@ -41,6 +41,18 @@
       <td>+</td>
   <tr>
   <tr>
+      <td>FR1.3</td>
+      <td>+</td>
+      <td>+</td>
+      <td>+</td>
+      <td>+</td>
+      <td>+</td>
+      <td>+</td>
+      <td>+</td>
+      <td>+</td>
+      <td>+</td>
+  <tr>
+  <tr>
       <td>FR2.1</td>
       <td>+</td>
       <td>+</td>
@@ -52,7 +64,19 @@
       <td>+</td>
       <td>+</td>
   <tr>
-   <td>FR2.2</td>
+      <td>FR2.2</td>
+      <td>+</td>
+      <td>+</td>
+      <td>+</td>
+      <td>+</td>
+      <td>+</td>
+      <td>+</td>
+      <td>+</td>
+      <td>+</td>
+      <td>+</td>
+  <tr>
+   <tr>
+      <td>FR2.3</td>
       <td>+</td>
       <td>+</td>
       <td>+</td>
