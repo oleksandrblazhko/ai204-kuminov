@@ -58,6 +58,7 @@ ALTER TABLE Trainer ADD CONSTRAINT planse_range
 CREATE TABLE Training_plans ( -- опис тренувань
 	training_plans_id INTEGER, -- id тренування
 	group_of_muscules VARCHAR(20), -- назва групи м'язів
+	exercise VARCHAR(50)
 	approach INTEGER, -- кількість підходів
 	number_of_repetitions INTEGER, -- кількість повторювань в підході
     advices INTEGER -- поради тренера
