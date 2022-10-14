@@ -6,7 +6,8 @@ CREATE TABLE Consumer ( -- опис користувача
 	consumer_name VARCHAR(25), -- ім'я користувача
 	consumer_surname VARCHAR(25), -- прізвище співробітника
 	consumer_age INTEGER, -- вік співробітника
-	consumer_city VARCHAR(25) -- місто
+	consumer_city VARCHAR(25), -- місто
+	consumer_email_address VARCHAR(25)
 );
 
 -- обмеження первинного ключа
@@ -101,4 +102,8 @@ ALTER TABLE Trainer ADD CONSTRAINT trainer_client_fk
 ALTER TABLE Training_plans ADD CONSTRAINT plans_advices_fk
 	FOREIGN KEY (advices)
 	REFERENCES Advices (advice_id);
+	
+ALTER TABLE Consumer ADD CONSTRAINT consumer_email_template
+    CHECK (regexp_like(consumer_email_address, 
+	           '^([a-z0-9][a-z0-9._-]*@[a-z][a-z0-9._-]*\.[a-z]{2,4})$'));
 
