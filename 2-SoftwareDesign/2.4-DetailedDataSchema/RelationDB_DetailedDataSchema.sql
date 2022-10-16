@@ -105,6 +105,5 @@ ALTER TABLE Training_plans ADD CONSTRAINT plans_advices_fk
 	REFERENCES Advices (advice_id);
 	
 ALTER TABLE Consumer ADD CONSTRAINT consumer_email_template
-    CHECK (regexp_like(consumer_email_address, 
-	           '^([a-z0-9][a-z0-9._-]*@[a-z][a-z0-9._-]*\.[a-z]{2,4})$'));
+    CHECK (REGEXP_LIKE (consumer_email_address, '[A-z0-9._%-]+@[A-z0-9._%-]+\.[A-z]{2,4}'))
 
