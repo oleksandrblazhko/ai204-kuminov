@@ -1,0 +1,33 @@
+@startuml
+
+title Classes - Class Diagram
+
+hide circle
+entity "Consumer"{
+(PK) id
+--
+name
+surname
+age
+(FK) city
+}
+
+entity "Thermometr"{
+(PK) city
+--
+date
+}
+
+entity "Trainer"{
+(PK) id
+--
+name
+(FK) surname
+expirience
+(FK) plans
+}
+
+Consumer --{ Trainer
+Thermometr --{ Consumer
+
+@enduml
