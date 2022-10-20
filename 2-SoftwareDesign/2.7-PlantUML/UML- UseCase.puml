@@ -1,4 +1,6 @@
 @startuml
+
+title PlantUML
 left to right direction
 skinparam packageStyle rectangle
 actor Користувач
@@ -6,4 +8,5 @@ rectangle {
 Користувач --> (Авторизувати користувача)
 (Отримати температуру\n навколишнього середовища) .> (Авторизувати користувача) : include
 }
+
 @enduml
