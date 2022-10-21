@@ -1,0 +1,21 @@
+@startuml
+
+title Classes - Class Diagram
+
+
+class Consumer {
+  id
+  name
+  surname
+  age
+}
+class Thermometr {
+ city
+ date
+}
+class User
+
+Consumer <|-- User
+Consumer "*" --> "1" Thermometr : activates
+
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+
+title Present level
+
+left to right direction
+
+node Смартфон{
+  node "<<OS Android>>"{
+    component [*.apk (Android Studio)]
+  }
+}
+
+interface "Сенсорний екран"
+
+"Сенсорний екран" -- Смартфон
+
+@enduml
