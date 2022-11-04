@@ -5,7 +5,6 @@ consumer_name VARCHAR(20), -- ім'я користувача
 consumer_surname VARCHAR(20), -- прізвище користувача
 consumer_age INTEGER, -- вік користувача
 consumer_city VARCHAR(25), -- місто користувача
-psychologist_id NUMBER(4), --  психолога
 consumer_email_address VARCHAR(25), -- пошта користувача
     	NOT FINAL MEMBER PROCEDURE display
 ) NOT FINAL 
